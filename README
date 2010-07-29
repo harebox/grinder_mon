@@ -1,0 +1,17 @@
+grinder_mon : a simple incremental Grinder 3 log analyzer.
+
+This is simplified version of Grinder Analyzer <http://track.sourceforge.net>,
+written by Travis Bear.
+
+
+usage :
+1. Change 'dataset_prefix' value in grinder_mon.py
+2. Run
+	# cat data_grinder.log > python grinder_mon.py
+3. Check output files.
+	$dataset_prefix/tps.csv
+	$dataset_prefix/response_time.csv
+
+changelog :
+2010.07.29
+	* first public version
